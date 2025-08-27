@@ -27,7 +27,7 @@ public class Main{
 
         int opcao;
         do {
-            System.out.println("\n----- MENU DO MUSEU ------");
+            System.out.println("----- MENU DO MUSEU ------");
             System.out.println("1 - " + sala1.getNome());
             System.out.println("2 - " + sala2.getNome());
             System.out.println("3 - " + sala3.getNome());
@@ -47,7 +47,7 @@ public class Main{
                     visitante.explorarSala(sala3);
                     break;
                 case 0:
-                    System.out.println("\nObrigado pela visita, " + visitante.getNome() + "! Volte sempre");
+                    System.out.println("Obrigado pela visita, " + nome + "! Volte sempre");
                     break;
                 default:
                     System.out.println("Opção inválida! Tente novamente.");

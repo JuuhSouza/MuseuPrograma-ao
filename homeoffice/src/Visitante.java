@@ -10,7 +10,7 @@ public class Visitante{
     }
 
     public void explorarSala(Sala sala){
-        System.out.println(nome + " está explorando a sala");
+        System.out.println("Você está explorando a sala");
         sala.exibirConteudo();
         System.out.println("...");
     }
