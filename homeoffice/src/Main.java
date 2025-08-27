@@ -31,7 +31,7 @@ public class Main{
             System.out.println("1 - " + sala1.getNome());
             System.out.println("2 - " + sala2.getNome());
             System.out.println("3 - " + sala3.getNome());
-            System.out.println("0 - Sair do museu");
+            System.out.println("4 - Sair do museu");
 
             System.out.print("Escolha uma sala para visitar: ");
             opcao = scanner.nextInt();
